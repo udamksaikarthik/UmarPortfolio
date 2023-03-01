@@ -1,11 +1,12 @@
 *{
     box-sizing: border-box;
-    margin: 0;
+    margin: 0 auto;
     font-family: 'Times New Roman', Times, serif;
     color: white;
 }
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 body{
     width: 100vw;
@@ -166,6 +167,7 @@ body{
     padding: 0.25em;
     transform: skewX(-20deg);
     border-radius: 5px;
+    margin: 0;
 }
 .left_corner_rectangle{
     position: absolute;
@@ -460,6 +462,7 @@ input{
 }
 button{
     color: black;
+    margin: 0;
 }
 .onscroll_animation_hidden{
     opacity: 0;
