@@ -72,10 +72,16 @@ if(WINDOW_HEIGHT > WINDOW_WIDTH)
 }
 
 const home_container_slider_background_div_id = document.getElementById('home_container_slider_background_div_id')
-const body_id = document.getElementById('body_id')
+const aboutMe = document.getElementById('aboutMe')
+const skills = document.getElementById('skills')
+const certificate = document.getElementById('certificate')
+const contact = document.getElementById('contact')
 function slider(){
     home_container_slider_background_div_id.classList.toggle('active')
-    body_id.classList.toggle('active')
+    aboutMe.classList.toggle('active')
+    skills.classList.toggle('active')
+    certificate.classList.toggle('active')
+    contact.classList.toggle('active')
 }
 
 
