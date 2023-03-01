@@ -325,8 +325,17 @@ body{
     background-size: 80%;
 }
 
-body.active{
-    overflow: hidden;
+#aboutMe.active{
+    display: none;
+}
+#skills.active{
+    display: none;
+}
+#certificate.active{
+    display: none;
+}
+#contact.active{
+    display: none;
 }
 .skills_main_container,.certificate_main_container{
     background-color: #02013D;
