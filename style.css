@@ -347,7 +347,8 @@ body{
     cursor: pointer;
 }
 .certifications_main_container{
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
+    background-color: #ADD8E6;
 }
 
 

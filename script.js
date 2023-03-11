@@ -8,17 +8,17 @@ function sliderMenu(){
 }
 
 function home(){
-    setTimeout(()=>{window.location.href='#home'},500)
+    setTimeout(()=>{window.location.href='#home'},600)
 }
 function skills(){
-    setTimeout(()=>{window.location.href='#skills'},500)
+    setTimeout(()=>{window.location.href='#skills'},600)
 }
 function certifications(){
-    setTimeout(()=>{window.location.href='#certifications'},500)
+    setTimeout(()=>{window.location.href='#certifications'},600)
 }
 function journey(){
-    setTimeout(()=>{window.location.href='#journey'},500)
+    setTimeout(()=>{window.location.href='#journey'},600)
 }
 function contact(){
-    setTimeout(()=>{window.location.href='#contact'},500)
+    setTimeout(()=>{window.location.href='#contact'},600)
 }
