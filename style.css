@@ -353,19 +353,6 @@ body{
 }
 
 
-
-
-.skill_logo_common,.profile_photo_section_div,.logo_common_container_div,.logo_right_alignment_div{
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-
-}
-.home_container,.profile_photo_section_div,.about_me_section{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 .contact_main_container{
     width: 100%;
     padding: 5% 2%;
@@ -393,6 +380,49 @@ body{
 }
 .content,.contact_details{
     color: gray;
+}
+.media_logos{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.media_logo_common{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin: 0 1em;
+}
+.media1{
+    background: url('Images/linkedin.png');
+}
+.media2{
+    background: url('Images/github_logo.png');
+}
+.media3{
+    background: url('Images/instagram.png');
+}
+.media_logo_common a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+.skill_logo_common,.profile_photo_section_div,.logo_common_container_div,.logo_right_alignment_div,.media_logo_common{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+.home_container,.profile_photo_section_div,.about_me_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 @media screen and (max-width: 500px) {
     .logo_container{
