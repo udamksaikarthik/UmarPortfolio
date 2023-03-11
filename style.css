@@ -4,7 +4,7 @@
     font-family: 'Times New Roman', Times, serif;
 }
 html{
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     scroll-behavior: smooth;
 }
 body{
@@ -13,7 +13,7 @@ body{
     justify-content: center;
     flex-direction: column;
     width: 100vw;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 .main_container{
     width: 95%;
@@ -91,6 +91,7 @@ body{
     width: 100vw;
     background-color: white;
     transition: 0.5s ease-in-out;
+    z-index: 2;
 }
 .menu_slider_div_container{
     height: 90%;
@@ -409,6 +410,26 @@ body{
     height: 100%;
     width: 100%;
 }
+.onscroll_animation_hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+}
+.onscroll_animation_hidden_right{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(100%);
+}
+.onscroll_animation_show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0%);
+    transition: all 1s;
+}
+.journey_main_container{
+    background-color: #ADD8E6;
+}
+
 
 
 
@@ -423,6 +444,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.contact_main_container.active{
+    display: none;
 }
 @media screen and (max-width: 500px) {
     .logo_container{
