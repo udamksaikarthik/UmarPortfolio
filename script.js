@@ -50,3 +50,19 @@ function journey(){
 function contact(){
     setTimeout(()=>{window.location.href='#contact'},600)
 }
+
+const school_experience_id = document.getElementById('school_experience_id')
+
+const school_experience_slider_id = document.getElementById('school_experience_slider_id')
+
+let school_count = 1
+
+function sliderSchoolExperience(){
+    school_experience_slider_id.classList.toggle('school_active')
+    setTimeout(()=>{main_container_id.classList.toggle('active')
+    contact_id.classList.toggle('active')},500)
+    if(school_count%2===0){
+        setTimeout(()=>{window.location.href = '#school_experience_id'},500)
+    }
+    school_count++;
+}

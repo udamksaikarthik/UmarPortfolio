@@ -232,6 +232,15 @@ body{
     height: 100%;
     background-color: #ADD8E6;
 }
+.info_container_div{
+    position: relative;
+}
+.info_container_div a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
 .middle_common_container{
     width: 10%;
     position: relative;
@@ -432,8 +441,14 @@ body{
 .menuButtonClass{
     color: black;
 }
+.closeButtonClass{
+    background-color: salmon;
+    color: black;
+}
+.slider_menu_div.school_active{
+    transform: translate(0);
 
-
+}
 
 
 
@@ -523,5 +538,8 @@ body{
     .contact_information_container{
         width: 95%;
         margin: 2% 0;
+    }
+    .closeButtonClass{
+        background-color: salmon;
     }
 }
