@@ -442,6 +442,16 @@ body{
     color: black;
 }
 .closeButtonClass{
+    display: flex;
+    margin: 0;
+        background-color: white;
+        height: 100%;
+        width: 20%;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+        font-size: 1.25em;
+        border: none;
     background-color: salmon;
     color: black;
 }
